@@ -3,7 +3,7 @@
 #streamlit
 
 import streamlit as st
-import tensorflow as tf
+import keras
 from PIL import Image #to process image formats
 import numpy as np
 import os
@@ -12,7 +12,7 @@ working_dir = os.path.dirname(os.path.abspath(__file__)) #gets path to main.py f
 model_path = f"{working_dir}/trained_model/trained_fashion_mnist_model.h5" #concatenating
 
 #load the pre-trained model
-model = tf.keras.models.load_model(model_path)
+model = keras.models.load_model(model_path)
 
 #define class labels for fashion MNIST dataset
 class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
