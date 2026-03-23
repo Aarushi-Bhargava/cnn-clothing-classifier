@@ -3,15 +3,15 @@
 A Convolutional Neural Network (CNN) built with TensorFlow/Keras to classify clothing items from the Fashion MNIST dataset into 10 categories. Includes a Streamlit web app for real-time image classification.
 
 ## Demo
-🔗 [Live App](#) *(coming soon)*
+🔗 [Live App](https://cnn-clothing-classifier.streamlit.app) 
 
 ## Categories
 The model classifies images into:
 `T-shirt/top` · `Trouser` · `Pullover` · `Dress` · `Coat` · `Sandal` · `Shirt` · `Sneaker` · `Bag` · `Ankle boot`
 
 ## Tech Stack
-- Python 3.11
-- TensorFlow / Keras
+- Python 3.14
+- Keras (PyTorch backend)
 - Streamlit
 - NumPy
 - Pillow
